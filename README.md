@@ -3,7 +3,7 @@
 Welcome to my personal portfolio repository! I am a Marketing & Communications specialist transitioning into the technical world of Web Development and Workflow Automation.
 
 ## 🌐 Live Preview
-You can view my live Webpage here: [(https://xenlian78.github.io/xenofonlianos.github.io]
+You can view my live Webpage here: [https://xenlian78.github.io/xenofonlianos.github.io]
 
 ## 🎯 The Mission
 Transforming marketing strategies into automated technical systems. I focus on building high-performance websites and AI-powered workflows that save time and drive results.
