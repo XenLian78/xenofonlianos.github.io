@@ -132,6 +132,7 @@ main {
 
 section {
     margin-bottom: 6rem;
+    scroll-margin-top: 150px;
 }
 
 .mobile-header {
