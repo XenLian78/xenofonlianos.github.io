@@ -39,7 +39,7 @@ body {
 
 /* LEFT COLUMN - STICKY NAVIGATION */
 
-.profile-container {
+.profile-img {
     width: 150px;
     height: 150px;
     border-radius: 50%; /* Κάνει τη φωτογραφία κύκλο */
@@ -50,11 +50,11 @@ body {
     filter: grayscale(20%); /* Δίνει ένα πιο σοβαρό, moody ύφος */
 }
 
-.profile-container:hover {
-    filter: grayscale(0%); /* Επαναφέρει το χρώμα στο hover */
-    transform: scale(1.05); /* Μεγαλώνει ελαφρώς */
-    border-color: var(--accent-color); /* Το περίγραμμα φωτίζεται */
-    box-shadow: 0 0 20px rgba(94, 234, 212, 0.4); /* Εφέ neon glow */
+.profile-img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.05);
+    border-color: var(--accent-color);
+    box-shadow: 0 0 20px rgba(94, 234, 212, 0.4);
 }
 
 header {
