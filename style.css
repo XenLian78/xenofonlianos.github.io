@@ -42,11 +42,11 @@ body {
 .profile-img {
     width: 150px;
     height: 150px;
-    border-radius: 50%; /* Κάνει τη φωτογραφία κύκλο */
+    border-radius: 10%;
     object-fit: cover;
-    border: 3px solid rgba(94, 234, 212, 0.2); /* Απαλό περίγραμμα στο χρώμα του accent */
+    border: 3px solid rgba(94, 234, 212, 0.2);
     margin-bottom: 1.5rem;
-    filter: grayscale(20%); /* Δίνει ένα πιο σοβαρό, moody ύφος */
+    filter: grayscale(20%);
 }
 
 header {
