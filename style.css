@@ -1,4 +1,4 @@
-/* Define theme colors here */
+
 :root {
     --bg-color: #0f172a; 
     --text-main: #94a3b8; 
@@ -53,6 +53,24 @@ header {
         top: 0;
         padding: 100px 0;
     }
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Κάνει τη φωτογραφία κύκλο */
+    object-fit: cover;
+    border: 3px solid rgba(94, 234, 212, 0.2); /* Απαλό περίγραμμα στο χρώμα του accent */
+    margin-bottom: 1.5rem;
+    transition: all 0.4s ease; /* Για ομαλή κίνηση */
+    filter: grayscale(20%); /* Δίνει ένα πιο σοβαρό, moody ύφος */
+}
+
+.profile-img:hover {
+    filter: grayscale(0%); /* Επαναφέρει το χρώμα στο hover */
+    transform: scale(1.05); /* Μεγαλώνει ελαφρώς */
+    border-color: var(--accent-color); /* Το περίγραμμα φωτίζεται */
+    box-shadow: 0 0 20px rgba(94, 234, 212, 0.4); /* Εφέ neon glow */
 }
 
 header h1 {
@@ -111,14 +129,12 @@ nav a:hover {
 .social-links a {
     color: var(--text-main);
     text-decoration: none;
-    /* ΑΛΛΑΓΗ: Μεγάλωσε λίγο το font-size για τα εικονίδια */
     font-size: 1.5rem; 
     transition: all 0.3s ease;
 }
 
 .social-links a:hover { 
     color: var(--accent-color);
-    /* Προαιρετικό: Μικρό εφέ μεγέθυνσης στο hover */
     transform: translateY(-3px); 
 }
 
